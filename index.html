@@ -10,7 +10,7 @@
 <body>
 <!-- partial:index.partial.html -->
 <div class="container form" id="form">
-  <div class="row title hidden-print">
+  <div class="row title ">
     <div class="col-sm-6">
       <h1></h1>
     </div>
@@ -22,17 +22,7 @@
         <h2>Form</h2>
       </div>
     </div>
-    
-    <!-- <div class="img" id="result" >
-      <button >Upload Image</button>
-    </div> -->
-    <!-- <button class="show-button">Show server request</button>
-    <div class="upload-result">
-      <button class="hide-button">Close</button>
-      <pre class="upload-result__content">
-      </pre>
-    </div> -->
-    
+     <div class="row">
       <div class="col-sm-6 form-group">
         <label>First Name:</label>
         <input class="form-control"/>
@@ -80,13 +70,15 @@
      
     </div>
    
-    <div class="row hidden-print">
+    <div class="row ">
       <div class="col-sm-12 form-group">
         <label>Reason why you want to serve God on the ALTAR</label>
         <textarea class="form-control"></textarea>
       </div>
     </div>
   </div>
+</div>
+
   
 
 <!-- partial -->
@@ -99,18 +91,18 @@
 
 src="./script.js">
 
-function readURL(input) {
-            if (input.files && input.files[0]) {
-                var reader = new FileReader();
+// function readURL(input) {
+//             if (input.files && input.files[0]) {
+//                 var reader = new FileReader();
 
-                reader.onload = function (e) {
-                    $('#blah')
-                        .attr('src', e.target.result);
-                };
+//                 reader.onload = function (e) {
+//                     $('#blah')
+//                         .attr('src', e.target.result);
+//                 };
 
-                reader.readAsDataURL(input.files[0]);
-            }
-        }
+//                 reader.readAsDataURL(input.files[0]);
+//             }
+//         }
 </script>
 
 </body>
